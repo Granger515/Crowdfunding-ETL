@@ -74,4 +74,4 @@ ALTER TABLE "backers" ADD CONSTRAINT "fk_cf_id" FOREIGN KEY("cf_id")
 REFERENCES "campaign" ("cf_id");
 
 SELECT * FROM backers
-LIMIT 10;
+Limit 10;
